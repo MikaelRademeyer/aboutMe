@@ -84,6 +84,21 @@ height:600px;
 float:left;
 
 }
+@media (max-width: 767px) {
+  .picOfMe {
+    max-width: 90%;  /* Larger size for mobile screens, adjust percentage as needed */
+    float:none;
+    height: 90%;
+
+  }
+}
+
+
+
+
+
+
+
 .about-me-header{
 text-align: center;
 }
